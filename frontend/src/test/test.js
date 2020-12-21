@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
-const test = function() {
-    return {
+const Test = function() {
 
-    }
+
+    return (
+        <React.Fragment>
+
+        </React.Fragment>
+    )
 }
+
+export default Test;
