@@ -1,12 +1,16 @@
 var mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const bossSchema = new Schema({
+const articleSchema = new Schema({
     articleId : {
         type : Number,
         required : true
     },
     articleContext : {
+        type : String,
+        required : true
+    },
+    createdUser : {
         type : String,
         required : true
     },
@@ -16,6 +20,6 @@ const bossSchema = new Schema({
     },
 });
 
-const Boss = mongoose.model('boss', bossSchema);
+const Article = mongoose.model('article', articleSchema);
 
-module.exports = Boss;
+module.exports = Article;
