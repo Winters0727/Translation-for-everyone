@@ -1,0 +1,25 @@
+.app-header {
+    display: block;
+    left: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+.app-body {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 80%;
+}
+
+.app-footer {
+    display: block;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}
